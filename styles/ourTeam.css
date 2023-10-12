@@ -1,3 +1,15 @@
+.body {
+  background-color: white;
+}
+
+.layout {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 16px;
+  height: 90vh; /* Optional: This sets the container to full viewport height */
+}
+
 .card {
   width: 300px;
   height: 400px;
@@ -6,6 +18,7 @@
   cursor: pointer;
   margin-right: 40px;
   font-family: "Roboto Slab", serif;
+  background-color: #f5fccd;
 }
 
 .card-inner {
@@ -54,14 +67,6 @@
   }
 }
 
-.layout {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  gap: 16px;
-  height: 90vh; /* Optional: This sets the container to full viewport height */
-}
-
 .image-container {
   width: 150px;
   height: 150px;
@@ -76,7 +81,7 @@ h4 {
 }
 
 .degree-title {
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin: 10px 0; /* Add spacing above and below the headings */
 }
 
@@ -189,4 +194,6 @@ h4 {
   font-size: 3.5rem;
   margin: 10px 0;
   font-family: "Roboto Slab", serif;
+  color: #12486b;
+  text-decoration: bold;
 }
