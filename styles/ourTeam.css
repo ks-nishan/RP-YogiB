@@ -39,7 +39,7 @@
 .circle {
   width: 100px;
   height: 100px;
-  background: radial-gradient(#b0e633, #53ef7d);
+  background: radial-gradient(#78d6c6, #419197);
   position: absolute;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
@@ -72,17 +72,17 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 20px auto 10px; /* Center the image and add space below */
+  margin: 20px auto 10px;
 }
 
 h4 {
   font-size: 1.3rem;
-  margin: 10px 0; /* Add spacing above and below the headings */
+  margin: 10px 0;
 }
 
 .degree-title {
   font-size: 1rem;
-  margin: 10px 0; /* Add spacing above and below the headings */
+  margin: 10px 0;
 }
 
 /* Button set style */
