@@ -1,5 +1,5 @@
-.body{
-  background-color: #F5FCCD;
+.body {
+  background-color: #f5fccd;
 }
 
 .layout {
@@ -14,10 +14,11 @@
 }
 
 .left {
+  margin-top: 10%;
 }
 
 .right {
-  margin-left: auto;
+  margin-left: 5%;
 }
 
 .image-container {
@@ -25,20 +26,25 @@
   justify-content: center;
   align-items: center;
   margin-right: 20%;
+  margin-top: 0%;
+}
+
+.image {
+  height: 630px;
 }
 
 .landing-title-container {
-  margin-top: -5%;
+  margin-top: -25%;
 }
 
 .landing-title {
-  margin-top: -40%;
+  margin-top: -10%;
   margin-left: 20%;
   font-size: 36px;
   font-weight: bold;
   text-align: left;
   padding: 20px;
-  color: #12486B;
+  color: #12486b;
   border-radius: 10px;
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  */
   margin: 20px 0;
@@ -48,7 +54,9 @@
 }
 
 .landing-title span {
-  background-color: #78D6C6;
+  background-color: #78d6c6;
+  padding: 0 1%;
+  border-radius: 5%;
 }
 
 .landing-title-desc {
@@ -80,7 +88,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   color: white;
-  background: #78D6C6;
+  background: #78d6c6;
   transition: 1s;
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
@@ -94,7 +102,7 @@
 
 .cta:hover {
   transition: 0.5s;
-  box-shadow: 10px 10px 0 #12486B;
+  box-shadow: 10px 10px 0 #12486b;
 }
 
 .cta .second {
@@ -109,6 +117,7 @@
 
 .span {
   transform: skewX(15deg);
+  /* font-family: "Roboto Slab", serif; */
 }
 
 .second {
@@ -148,10 +157,43 @@
   }
 
   50% {
-    fill: #12486B;
+    fill: #12486b;
   }
 
   100% {
     fill: white;
   }
+}
+
+/* Navigation style */
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5fccd;
+  padding: 10px 20px;
+  margin: 0 5%;
+}
+
+.logo-container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #12486b;
 }
