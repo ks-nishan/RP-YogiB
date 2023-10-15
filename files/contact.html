@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../styles/contactus.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>contact form</title>
+    <link href="contact-form.css" rel="stylesheet" />
+</head>
+<script>
+    // JavaScript to handle the form submission
+    document.getElementById("submit-button").addEventListener("click", function (event) {
+        event.preventDefault();
+
+        // Collect form data
+        const formData = new FormData(document.getElementById("form-id"));
+
+        // Send data to the server using an AJAX request
+        fetch("/path-to-your-server-script", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Handle the response from the server (e.g., show a success message to the user)
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+    });
+</script>
+<body>
+
+    <div class="body">
+        <div class="left">
+            <h2>Contact Us</h2>
+            <div id="form" style="">
+
+                <form id="form-id">
+
+                    <div class="form-group">
+                        <label for="Name" class="label">Your name</label>
+                        <div class="input-group">
+                            <input type="text" id="Name" name="Name" class="form-control" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Email" class="label">Your email address</label>
+                        <div class="input-group">
+                            <input type="email" id="Email" name="Email" class="form-control" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Message" class="label">Your message</label>
+                        <div class="input-group">
+                            <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div>
+                            <a class="effect1" href="#" id="submit-button">
+                              Submit
+                              <span class="bg"></span>
+                            </a>
+                          </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="image-container">
+                <img src="../images/contactUs.gif" style="height: 600px;width: 600px;" />
+            </div>
+        </div>
+    </div>
+
+    </html>
