@@ -11,13 +11,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    height: 150px;
 
 }
 
 .footer .row {
     width: 100%;
     margin: 1% 0%;
-    padding: 0.6% 0%;
+    padding:0.6% 0% 5%;
     color: black;
     font-size: 0.8em;
 }
@@ -26,6 +27,7 @@ body {
     text-decoration: none;
     color: black;
     transition: 0.5s;
+    flex-direction: column;
 }
 
 .footer .row a:hover {
@@ -34,11 +36,14 @@ body {
 
 .footer .row ul {
     width: 100%;
+    list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer .row ul li {
     display: inline-block;
-    margin: 0px 15px;
+    margin: 0px 30px;
 }
 
 .footer .row a i {
