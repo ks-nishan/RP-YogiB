@@ -1,5 +1,5 @@
 .body {
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
 .layout {
@@ -18,7 +18,7 @@
   cursor: pointer;
   margin-right: 40px;
   font-family: "Roboto Slab", serif;
-  background-color: #f5fccd;
+  background-color: #fff;
 }
 
 .card-inner {
