@@ -24,7 +24,7 @@
 }
 
 .option li .icon.check {
-    color: #05310f;
+    color: #ffffff;
 }
 
 .option li .icon.cross {
@@ -34,7 +34,7 @@
 margin: 0 0 10px;
 padding: 0;
 list-style: none;
-color: #0a2b43;
+color: #f1f2f3;
 font-size: 20px;
 font-family: "Roboto Slab", serif;
 font-weight: 400px;
@@ -43,7 +43,7 @@ font-weight: 400px;
   position: relative;
   z-index: 2;
   background: #fff;
-  color : black;
+  color : rgb(249, 246, 246);
   width: 150px;
   height: 40px;
   line-height: 40px;
@@ -56,6 +56,9 @@ font-weight: 400px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
           box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
 
+}
+.strikethrough{
+    color:#fdfdfd;
 }
  body .container {
      width: 938px;
@@ -107,8 +110,8 @@ font-weight: 400px;
  }
 
  body .container .card:nth-of-type(2) {
-     background: -webkit-linear-gradient(45deg, #78D6C6 0%, #78D6C6 100%);
-     background: -moz-linear-gradient(45deg, #78D6C6 0%, #78D6C6 100%);
+     background: -webkit-linear-gradient(45deg,#419197 0%, #419197 100%);
+     background: -moz-linear-gradient(45deg, #419197 0%, #419197 100%);
  }
 
  body .container .card:nth-of-type(3) {
@@ -205,7 +208,7 @@ font-weight: 400px;
  }
 
  body .container .card_inner__content .price {
-     color: white;
+     color: #d4d4d4;
      font-weight: 800;
      font-size: 70px;
     
@@ -222,7 +225,7 @@ font-weight: 400px;
  body .container .card_inner__content .title {
      font-weight: 800;
      text-transform: uppercase;
-     color: #01080c;
+     color: #fdfdfd;
      margin-top: 40px;
      font-size: 25px;
      letter-spacing: 1px;
