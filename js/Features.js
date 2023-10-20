@@ -15,7 +15,7 @@ var swiper = new Swiper(".slide-content", {
       prevEl: ".swiper-button-prev",
     },
     autoplay: {
-      delay: 2500, // Adjust the delay (in milliseconds) between slides
+      delay: 6000, // Adjust the delay (in milliseconds) between slides
       disableOnInteraction: false, // Allow manual navigation to override autoplay
   },
     breakpoints:{
