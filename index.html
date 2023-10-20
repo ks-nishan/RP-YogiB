@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Realtime Yoga Assistante - YogiB</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Realtime Yoga Assistant - YogiB</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .iframe-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iframe-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="body">
+    <nav class="navigation-container">
+      <div class="logo-container">
+        <img src="./images/YBlogo.jpg" alt="logo" />
+      </div>
+      <ul>
+        <li href="#">Home</li>
+        <li>Overview</li>
+        <li>Our Team</li>
+        <li>Testimonial</li>
+        <li>Pricing</li>
+        <li>FAQ</li>
+      </ul>
+    </nav>
+    <div class="iframe-container">
+      <iframe src="./files/landing.html"></iframe>
+    </div>
+    <div class="iframe-container">
+      <iframe src="./files/Features.html"></iframe>
+    </div>
+    <div class="iframe-container">
+      <iframe src="./files/ourTeam.html"></iframe>
+    </div>
+    <div class="iframe-container">
+      <iframe src="./files/testimonial.html"></iframe>
+    </div>
+    <div class="iframe-container">
+      <iframe src="./files/pricing.html"></iframe>
+    </div>
+    <div class="iframe-container">
+      <iframe src="./files/faq.html"></iframe>
+    </div>
+  </body>
 </html>

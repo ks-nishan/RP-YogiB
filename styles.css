@@ -1,1 +1,39 @@
 /* colour palate link : https://colorhunt.co/palette/12486b41919778d6c6f5fccd */
+
+/* Navigation style */
+
+.body {
+    background-color: #f5fccd;
+  }
+  
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5fccd;
+  padding: 10px 20px;
+  margin: 0 5%;
+}
+
+.logo-container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #12486b;
+}
