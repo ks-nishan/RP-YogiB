@@ -54,7 +54,8 @@ details[open] div {
 .images {
   width: 700px;
   height: 600px;
-  margin-left: 100x;
+  margin-left: 900x;
+  margin-top: -100px;
 }
 
 /* .iframe-container {
