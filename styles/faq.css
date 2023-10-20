@@ -3,6 +3,7 @@
 body {
   background-color: #f0f0f0;
   font-family: "Roboto Slab", serif;
+  overflow-y: hidden;
 }
 
 .container h1 {
