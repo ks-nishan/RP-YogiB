@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+            font-family: "Roboto Slab", serif;
+
+        }
+
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right {
+            flex: 1;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 2500px;
+            height: auto;
+            margin-top: 30px;
+            margin-right: 150px;
+
+        }
+
+        /* Reset some default styles for better consistency */
+        body,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Roboto Slab", serif;
+            position: relative;
+            color: black;
+        }
+
+        ul.research-questions {
+            list-style: none;
+            margin: 20px;
+            padding: 0;
+        }
+
+        ul.research-questions li {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #78d6c6;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        /* Style the list items for better readability */
+        ul.research-questions li::before {
+            content: "\2022";
+            /* Bullet character */
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            font-size: 2em;
+            /* Increase the font size for the bullet */
+            margin-left: -1em;
+
+        }
+
+        /* Add some spacing between list items */
+        ul.research-questions li+li {
+            margin-top: 15px;
+        }
+
+        .centered-text {
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+
+        .start-with-bold {
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 1.5em;
+            margin-right: 70px;
+            margin-left: 20px;
+            border-width: 3px;
+            margin-top: -70px;
+            padding: 40px;
+            counter-increment: section;
+            position: relative;
+            color: black;
+        }
+
+        .color1 {
+            color: #00b8a5;
+        }
+
+        .color2 {
+            color: rgb(30, 21, 82);
+        }
+
+        .h4 {
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            font-size: 1.5rem;
+        }
+
+        .highlight {
+            color: #00b8a5;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            font-size: 2.2rem;
+            font-family: "Roboto Slab", serif;
+            margin-left: 100px;
+        }
+
+        .title {
+            font-size: 3.5rem;
+            margin: 10px 0;
+            font-family: "Roboto Slab", serif;
+            color: #12486b;
+            text-decoration: bold;
+            margin-left: 100px;
+        }
+
+        .soul {
+            margin-top: -20px;
+            margin-right: 1290px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1 class="title">Research <span class="color1">Problem</span> &
+        <span class="color2">Sollution</span>
+    </h1>
+
+    <div class="container">
+        <div class="left">
+
+            <h1 style="color: #121c53;margin-left: 100px;">Proposed Problem</h1>
+            <h4 class="highlight">
+
+
+                How can real-time technology be effectively utilized to assist individuals in improving
+                yoga practice, and what are the potential benefits and challenges associated with such assistance?
+                <br /><br />
+            </h4>
+            <!-- <p style="text-align: justify">The traditional yoga teaching method involves students imitating postures
+                after an instructor,
+                which can lead to poor breathing, incorrect alignment, and injury. Online yoga classes and tutorial
+                videos have gained popularity, but they lack real-time feedback and correction.</p> -->
+            <!-- Your 500-word paragraph goes here -->
+
+            <br>
+            <!-- Continue with your text -->
+
+            <!-- The traditional yoga teaching method involves students imitating postures after an instructor,
+            which can lead to poor breathing, incorrect alignment, and injury. Online yoga classes and tutorial
+            videos have gained popularity, but they lack real-time feedback and correction. The study aims to
+            provide real-time advice and feedback to address these issues and make yoga instruction more
+            accessible and of higher quality. The research challenge is to create a novel system that offers
+            realtime coaching to
+            practitioners, improving their performance and preventing accidents. The
+            proposed approach aims to improve alignment and breathing, enhance learning experiences, and
+            increase the efficacy of yoga practice by offering 3D renderings of genuine asanas and real-time
+            feedback, including error checking. This approach aims to make yoga instruction more accessible
+            and useful for practitioners of all skill levels. -->
+
+        </div>
+        <div class="right">
+            <img src="../images/p4.JPG">
+        </div>
+    </div>
+    <div class="centered-text">
+        <div class="soul">
+            <h1 style="color: #121c53;">Research Sollution</h1>
+        </div>>
+        <p style="text-align: justify">
+            <span class="start-with-bold">T</span>he research project aims to suggest an effective and accurate yoga
+            asana based on user requests,
+            recognizing the physical and mental benefits of different yoga asanas and adapting them to meet
+            individual needs. The real-time yoga assistant will assess the user's posture and movement using
+            computer vision and machine learning techniques to suggest areas that need attention. The goal is
+            to improve health and well-being by supporting safer and more effective yoga practice.
+            Technology improvements are crucial for making yoga more effective, personalized, and
+            accessible to a wider range of users, including beginners and those with unique health issues. The
+            real-time yoga assistant will need increased precision, accuracy, and overall efficiency.
+        </p>
+    </div>
+</body>
+
+</html>
