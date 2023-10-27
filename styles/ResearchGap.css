@@ -6,7 +6,9 @@
 body {
   background-color: rgb(247, 242, 241);
 }
-
+.researchtitle{
+  font-family: "Roboto Slab", serif;
+}
 .container {
   width: 80%;
   min-height: 50vh;
