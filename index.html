@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="images/YBlogo.jpg" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>The Realtime Yoga Assistant - YogiB</title>
     <style>
       html {
@@ -44,6 +48,54 @@
         height: 140%;
         border: none;
       }
+      .iframe-container2 {
+        width: 100%;
+        height: 145vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iframe-container2 iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .iframe-container2-footer {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iframe-container2-footer iframe {
+        width: 100%;
+        height: 140%;
+        border: none;
+      }
+      .iframe-container3 {
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iframe-container3 iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .iframe-container3-footer {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iframe-container3-footer iframe {
+        width: 100%;
+        height: 140%;
+        border: none;
+      }
     </style>
   </head>
   <body class="body">
@@ -53,7 +105,21 @@
       </div>
       <ul>
         <li><a href="#Home">Home</a></li>
-        <li><a href="#Overview">Overview</a></li>
+        <div class="dropdown">
+          <li class="dropbtn">
+            <a href="#Testimonial">Project Scope</a
+            ><i class="fa fa-caret-down" style="color: #12486b"></i>
+          </li>
+          <div class="dropdown-content">
+            <a href="#Litreture">Literature Survey</a>
+            <a href="#ReserchGap">ResearchGap</a>
+            <a href="#Problem">Reserch Problem & solution</a>
+            <a href="#Workflow">Workflow</a>
+            <a href="#Docs">Documents</a>
+            <a href="#Tools">Technology</a>
+          </div>
+        </div>
+        <li><a href="#Milestone">Milestones</a></li>
         <li><a href="#Testimonial">Testimonial</a></li>
         <li><a href="#Team">Our Team</a></li>
         <li><a href="#Pricing">Pricing</a></li>
@@ -63,8 +129,26 @@
     <div class="iframe-container" id="Home">
       <iframe src="./files/landing.html"></iframe>
     </div>
+    <div class="iframe-container" id="Litreture">
+      <iframe src="./files/litratuerReview.html"></iframe>
+    </div>
+    <div class="iframe-container" id="ReserchGap">
+      <iframe src="./files/ResearchGap.html"></iframe>
+    </div>
+    <div class="iframe-container" id="Problem">
+      <iframe src="./files/Resultpro&sol.html"></iframe>
+    </div>
     <div class="iframe-container" id="Overview">
       <iframe src="./files/Features.html"></iframe>
+    </div>
+    <div class="iframe-container2" id="Docs">
+      <iframe src="./files/documents.html"></iframe>
+    </div>
+    <div class="iframe-container2" id="Workflow">
+      <iframe src="./files/workflow.html"></iframe>
+    </div>
+    <div class="iframe-container" id="Tools">
+      <iframe src="./files/tools.html"></iframe>
     </div>
     <div class="iframe-container" id="Testimonial">
       <iframe src="./files/testimonial.html"></iframe>
@@ -72,14 +156,14 @@
     <div class="iframe-container" id="Team">
       <iframe src="./files/ourTeam.html"></iframe>
     </div>
-    <div class="iframe-container" id="Pricing">
-      <iframe src="./files/pricing.html"></iframe>
-    </div>
-    <div class="iframe-container" id="Pricing">
-      <iframe src="./files/tools.html"></iframe>
+    <div class="iframe-container3" id="Milestone">
+      <iframe src="./files/milestone.html"></iframe>
     </div>
     <div class="iframe-container" id="FAQ">
       <iframe src="./files/faq.html"></iframe>
+    </div>
+    <div class="iframe-container" id="Pricing">
+      <iframe src="./files/pricing.html"></iframe>
     </div>
     <div class="iframe-container-footer">
       <iframe src="./files/footer.html"></iframe>

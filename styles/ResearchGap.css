@@ -29,6 +29,7 @@ body {
   max-width: 70%; /* Ensure the image doesn't exceed the card width */
 }
 .card {
+  
   background-color: white;
   width: 250px;
   min-height: 404.5px;
@@ -47,8 +48,8 @@ body {
   transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
   /* custom */
   flex: 1; /* This makes the cards take up equal space within the container */
-  margin: 20px; /* Adjust the margin to control the gap between the cards */
-  padding: 15px; /* Optional: Add padding inside each card */
+  margin: 30px; /* Adjust the margin to control the gap between the cards */
+  padding: 20px; /* Optional: Add padding inside each card */
   border: 1px solid #ccc;
 }
 .card h1, .card h2, .card h3, .card h4, .card h5 {
@@ -80,7 +81,7 @@ body {
   letter-spacing: -0.25px;
   line-height: 1.25;
   font-size: 16px;
-  word-break: break-all;
+  /* word-break: break-all; */
   word-wrap: pre-wrap;
   color: #282828;
   -webkit-animation-name: p-show;
@@ -89,6 +90,7 @@ body {
   /* Safari 4.0 - 8.0 */
   animation-name: p-show;
   animation-duration: 1.5s;
+  word-break: keep-all;
 }
 .card button {
   border: none;
