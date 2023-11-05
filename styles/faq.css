@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 body {
-  background-color: #f0f0f0;
+  background-color: #fff;
   font-family: "Roboto Slab", serif;
   overflow-y: hidden;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  height: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin: 10px 0;
+  font-family: "Roboto Slab", serif;
+  color: #12486b;
+  text-decoration: bold;
 }
 
 .container h1 {
